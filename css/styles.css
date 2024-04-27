@@ -320,16 +320,23 @@ padding-left: 16px;
       padding: 12px;
     border-radius: 50%;
         background-color: #4d5ae5;
-    fill: #ffffff;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fiil 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover,
 .team-social-link:focus {
 background-color: #404bbf;
-fill: #f4f4fd;
 }
 
+.team-social-icon {
+fill: #ffffff;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-icon:hover,
+.team-social-icon:focus {
+fill: #f4f4fd;
+}
 /*================PORTFOLIO================*/
 .portfolio {
     padding: 120px 0;
